@@ -47,11 +47,8 @@ This project is part of the Deep Learning Specialization (Week 6 – CNNs) and i
 
 ---
 
-## 📈 Accuracy vs Epochs (Optional)
+## 📈 Accuracy vs Epochs
 
-You can visualize training progress like this:
-
-```python
 import matplotlib.pyplot as plt
 
 plt.plot(history.history['accuracy'], label='Train Accuracy')
