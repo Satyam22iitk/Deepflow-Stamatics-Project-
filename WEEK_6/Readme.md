@@ -47,15 +47,3 @@ This project is part of the Deep Learning Specialization (Week 6 – CNNs) and i
 
 ---
 
-## 📈 Accuracy vs Epochs
-
-import matplotlib.pyplot as plt
-
-plt.plot(history.history['accuracy'], label='Train Accuracy')
-plt.plot(history.history['val_accuracy'], label='Validation Accuracy')
-plt.xlabel('Epoch')
-plt.ylabel('Accuracy')
-plt.title('Accuracy vs Epochs')
-plt.legend()
-plt.grid(True)
-plt.show()
